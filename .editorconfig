@@ -1,0 +1,38 @@
+# EditorConfig
+#
+# Documentation: https://editorconfig.org
+# Config reference: https://spec.editorconfig.org/
+#
+
+root = true
+
+[*]
+
+# ------------ GLOBAL SETTINGS ------------ #
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.py]
+
+# ------------ PYTHON FILES ------------ #
+max_line_length = 100
+
+[*.json]
+
+# ------------ JSON FILES ------------ #
+indent_size = 2
+insert_final_newline = false
+
+[*.{yml,yaml}]
+
+# ------------ YAML FILES ------------ #
+indent_size = 2
+
+[*.md]
+
+# ------------ MARKDOWN FILES ------------ #
+trim_trailing_whitespace = false
